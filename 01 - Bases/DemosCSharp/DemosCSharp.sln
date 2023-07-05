@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice11", "Exercice11\Ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice12", "Exercice12\Exercice12.csproj", "{3D7525B8-D43D-48C8-9C50-A6D13ABB79E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZBonusTimer", "ZBonusTimer\ZBonusTimer.csproj", "{7592E4C3-6AB4-455F-B2B3-F49E9E450327}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{3D7525B8-D43D-48C8-9C50-A6D13ABB79E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D7525B8-D43D-48C8-9C50-A6D13ABB79E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D7525B8-D43D-48C8-9C50-A6D13ABB79E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7592E4C3-6AB4-455F-B2B3-F49E9E450327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7592E4C3-6AB4-455F-B2B3-F49E9E450327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7592E4C3-6AB4-455F-B2B3-F49E9E450327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7592E4C3-6AB4-455F-B2B3-F49E9E450327}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
