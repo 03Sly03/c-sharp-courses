@@ -1,9 +1,2 @@
-﻿
-//string? variable = "du texte";
-string? variable = null;
-
-string ageString = variable ?? "saisie vide !";
-string ageString2 = variable == null ? "saisie vide !" : variable;
-
-Console.WriteLine(ageString);
-Console.WriteLine(ageString2);
+﻿for (int compteur = 1; compteur >= -500; compteur-=10)
+    Console.WriteLine("L'instruction a été exécutée " + compteur + " fois");
