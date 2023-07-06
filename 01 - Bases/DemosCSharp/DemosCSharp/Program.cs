@@ -1,2 +1,12 @@
-﻿for (int compteur = 1; compteur >= -500; compteur-=10)
-    Console.WriteLine("L'instruction a été exécutée " + compteur + " fois");
+﻿for (int i = 0; i < 20; i++)
+{
+    if (i == 7 || i == 14)
+        continue;
+
+    if (i == 18)
+        break;
+
+    Console.WriteLine(i);
+}
+
+Console.WriteLine("Fin boucle");
