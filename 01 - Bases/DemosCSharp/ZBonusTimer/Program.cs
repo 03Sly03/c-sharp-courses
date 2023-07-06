@@ -1,4 +1,4 @@
-﻿DateTime fin = new DateTime(2023, 07, DateTime.Now.Day, 15, 0, 0);
+﻿DateTime fin = new DateTime(2023, 07, DateTime.Now.Day, 10, 45, 0);
 var delta = fin - DateTime.Now;
 Console.ForegroundColor = ConsoleColor.DarkRed;
 
