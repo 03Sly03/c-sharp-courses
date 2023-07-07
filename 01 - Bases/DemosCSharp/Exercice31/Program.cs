@@ -1,4 +1,5 @@
-﻿//définir min max sum nbnotes
+﻿float max = 0, min = 20, somme = 0;
+int nbNotes = 1;
 
 while (true)
 {
@@ -16,19 +17,46 @@ while (true)
     switch (choice)
     {
         case "1":
-            Console.Write("cas 1");
+            int userInput;
+            do
+            {
+                Console.Write("\t - Merci de saisir la note " + nbNotes + "(sur /20) :");
+                while (!(int.TryParse(Console.ReadLine(), out userInput) && (userInput == 999 || (userInput >= 0 && userInput <= 20))))
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("\t\tErreur de saisie, la note est sur 20 !");
+                    Console.ResetColor();
+                    Console.Write("\t - Merci de saisir la note " + nbNotes + "(sur /20) :");
+                }
+
+                if (userInput != 999)
+                {
+                    if (userInput > max)
+                        max = userInput;
+                    if (userInput < min)
+                        min = userInput;
+                    somme += userInput;
+                    nbNotes++;
+                }
+            } while (userInput != 999);
             break;
         case "2":
-            Console.Write("cas 2");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("\nla meilleure note est " + max + "/20");
+            Console.ResetColor();
             break;
         case "3":
-            Console.Write("cas 3");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("la moins bonne note est " + min + "/20");
+            Console.ResetColor();
             break;
         case "4":
-            Console.Write("cas 4");
+            Console.ForegroundColor = ConsoleColor.Gray;
+            Console.WriteLine("la moyenne des note est " + Math.Round((somme / ((float)nbNotes - 1)),1) + "/20");
+            Console.ResetColor();
             break;
         case "0":
-            Console.Write("cas 0"); // sortir du programme
+            Environment.Exit(0); // arrête le programme => les instructions après la boucle ne seront jamais exécutées
             break;
         default:
             Console.WriteLine("Erreur de saisie, recommencez !");

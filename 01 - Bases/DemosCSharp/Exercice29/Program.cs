@@ -5,24 +5,35 @@ int nbNotes = 1;
 int userInput;
 do
 {
-    bool saisieValide;
-    do
+    // Contrôle de saisie
+    //bool saisieValide;
+    //do
+    //{
+    //    Console.Write("\t - Merci de saisir la note " + nbNotes + "(sur /20) :");
+    //    saisieValide = int.TryParse(Console.ReadLine(), out userInput) // notre saisie est un entier
+    //                && (                                            // ET
+    //                    userInput == 999                            // notre valeur est égale à 999
+    //                    ||                                          // OU
+    //                    (userInput >= 0 && userInput <= 20)         // notre valeur est comprise entre 0 et 20
+    //                    );
+    //    //saisieValide = int.TryParse(Console.ReadLine(), out userInput)&& (userInput == 999 || (userInput >= 0 && userInput <= 20));
+    //    if (!saisieValide)
+    //    {
+    //        Console.ForegroundColor = ConsoleColor.Red;
+    //        Console.WriteLine("\t\tErreur de saisie, la note est sur 20 !");
+    //        Console.ResetColor();
+    //    }
+    //} while (!saisieValide);
+
+    // variante du contrôle de saisie
+    Console.Write("\t - Merci de saisir la note " + nbNotes + "(sur /20) :");
+    while (!(int.TryParse(Console.ReadLine(), out userInput) && (userInput == 999 || (userInput >= 0 && userInput <= 20))))
     {
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine("\t\tErreur de saisie, la note est sur 20 !");
+        Console.ResetColor();
         Console.Write("\t - Merci de saisir la note " + nbNotes + "(sur /20) :");
-        saisieValide = int.TryParse(Console.ReadLine(), out userInput) // notre saisie est un entier
-                    && (                                            // ET
-                        userInput == 999                            // notre valeur est égale à 999
-                        ||                                          // OU
-                        (userInput >= 0 && userInput <= 20)         // notre valeur est comprise entre 0 et 20
-                        );
-        //saisieValide = int.TryParse(Console.ReadLine(), out userInput)&& (userInput == 999 || (userInput >= 0 && userInput <= 20));
-        if (!saisieValide)
-        {
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("\t\tErreur de saisie, la note est sur 20 !");
-            Console.ResetColor();
-        }
-    } while (!saisieValide);
+    }
 
     //if (userInput == 999)
     //    break;
