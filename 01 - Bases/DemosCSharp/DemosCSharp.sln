@@ -71,29 +71,35 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice30", "Exercice30\Ex
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice31", "Exercice31\Exercice31.csproj", "{CDDFBA14-DF71-4B3F-9F4C-95517B75555D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice32", "Exercice32\Exercice32.csproj", "{C54510D7-D08E-45C9-AA80-F2F594EDFBA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice32", "Exercice32\Exercice32.csproj", "{C54510D7-D08E-45C9-AA80-F2F594EDFBA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice33", "Exercice33\Exercice33.csproj", "{2B5DE928-8C4F-416B-9B0A-A29730C5A550}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice33", "Exercice33\Exercice33.csproj", "{2B5DE928-8C4F-416B-9B0A-A29730C5A550}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice34", "Exercice34\Exercice34.csproj", "{D4FBCF10-B754-4417-8775-5BABECEF4848}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice34", "Exercice34\Exercice34.csproj", "{D4FBCF10-B754-4417-8775-5BABECEF4848}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice35", "Exercice35\Exercice35.csproj", "{5F50219D-B631-46C2-9E44-FDE5C180A9B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice35", "Exercice35\Exercice35.csproj", "{5F50219D-B631-46C2-9E44-FDE5C180A9B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice36", "Exercice36\Exercice36.csproj", "{AB37E78A-C9A3-4E39-9099-BFA0C3F86C9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice36", "Exercice36\Exercice36.csproj", "{AB37E78A-C9A3-4E39-9099-BFA0C3F86C9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice37", "Exercice37\Exercice37.csproj", "{F436F9FA-BD05-4498-BDB3-EDCEAF8E7E3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice37", "Exercice37\Exercice37.csproj", "{F436F9FA-BD05-4498-BDB3-EDCEAF8E7E3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice38", "Exercice38\Exercice38.csproj", "{7FABC6BF-0574-47D1-804F-4F6C2540E56C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice38", "Exercice38\Exercice38.csproj", "{7FABC6BF-0574-47D1-804F-4F6C2540E56C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice39", "Exercice39\Exercice39.csproj", "{BF276C63-A8DC-4840-8D95-D5819CC90685}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice39", "Exercice39\Exercice39.csproj", "{BF276C63-A8DC-4840-8D95-D5819CC90685}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciceNomComplet", "ExerciceNomComplet\ExerciceNomComplet.csproj", "{D7D14F68-680F-434B-8D93-787EB245376D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExerciceNomComplet", "ExerciceNomComplet\ExerciceNomComplet.csproj", "{D7D14F68-680F-434B-8D93-787EB245376D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciceSoustraction", "ExerciceSoustraction\ExerciceSoustraction.csproj", "{9892B815-A674-4FD1-8AEC-217D8DF05506}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExerciceSoustraction", "ExerciceSoustraction\ExerciceSoustraction.csproj", "{9892B815-A674-4FD1-8AEC-217D8DF05506}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciceQuelleHeure", "ExerciceQuelleHeure\ExerciceQuelleHeure.csproj", "{2BD6EB38-74F4-4618-AA0C-9103CECDEE2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExerciceQuelleHeure", "ExerciceQuelleHeure\ExerciceQuelleHeure.csproj", "{2BD6EB38-74F4-4618-AA0C-9103CECDEE2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciceCompteurDeA", "ExerciceCompteurDeA\ExerciceCompteurDeA.csproj", "{F051146F-3559-4FA8-BBFB-06DB7C9C2869}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExerciceCompteurDeA", "ExerciceCompteurDeA\ExerciceCompteurDeA.csproj", "{F051146F-3559-4FA8-BBFB-06DB7C9C2869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciceADN", "ExerciceADN\ExerciceADN.csproj", "{B491379B-4C76-4B47-8E33-53A08A922D40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciceTupleOperations", "ExerciceTupleOperations\ExerciceTupleOperations.csproj", "{C8CAAAB5-567D-4AE2-AE83-41AB97276028}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice39Fonctions", "Exdercice39Fonctions\Exercice39Fonctions.csproj", "{F2C2ABD0-8353-468D-B46D-374CD67979AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -285,6 +291,18 @@ Global
 		{F051146F-3559-4FA8-BBFB-06DB7C9C2869}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F051146F-3559-4FA8-BBFB-06DB7C9C2869}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F051146F-3559-4FA8-BBFB-06DB7C9C2869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B491379B-4C76-4B47-8E33-53A08A922D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B491379B-4C76-4B47-8E33-53A08A922D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B491379B-4C76-4B47-8E33-53A08A922D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B491379B-4C76-4B47-8E33-53A08A922D40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8CAAAB5-567D-4AE2-AE83-41AB97276028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8CAAAB5-567D-4AE2-AE83-41AB97276028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8CAAAB5-567D-4AE2-AE83-41AB97276028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8CAAAB5-567D-4AE2-AE83-41AB97276028}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2C2ABD0-8353-468D-B46D-374CD67979AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2C2ABD0-8353-468D-B46D-374CD67979AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2C2ABD0-8353-468D-B46D-374CD67979AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C2ABD0-8353-468D-B46D-374CD67979AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
