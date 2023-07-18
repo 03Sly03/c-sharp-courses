@@ -15,17 +15,29 @@
 //mammifere.Respirer();
 //mammifere.Crier();
 
-Chien chien = new("Pepette", true, "femelle", "Rottweiler");
-Console.WriteLine(chien.Nom);
-chien.SeDeplacer();
-chien.Respirer();
-chien.Crier();
-chien.Allaiter();
+Animal chien = new Chien("Pepette", true, "femelle", "Rottweiler");
+//Console.WriteLine(chien.Nom);
+//chien.SeDeplacer();
+//chien.Respirer();
+//chien.Crier();
+//chien.Allaiter();
 
-Chat chat = new("Mistigri", true, "femelle", false);
-Console.WriteLine(chat.Nom);
-chat.SeDeplacer();
-chat.Respirer();
-chat.Crier();
-chat.Crier("le cri du chat");
-chat.Allaiter();
+Animal chat = new Chat("Mistigri", true, "femelle", false);
+//Console.WriteLine(chat.Nom);
+//chat.SeDeplacer();
+//chat.Respirer();
+//chat.Crier();
+//chat.Crier("le cri du chat");
+//chat.Allaiter();
+
+
+List<Animal> animals = new List<Animal>
+{
+    chat,
+    chien
+};
+
+foreach (var ani in animals)
+{
+    ani.Crier();
+}

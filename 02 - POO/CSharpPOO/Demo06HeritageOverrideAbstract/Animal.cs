@@ -18,11 +18,11 @@ namespace Demo06HeritageOverrideAbstract
 
         public abstract void SeDeplacer();
         public abstract void Respirer();
-        public void Crier()
+        public virtual void Crier()
         {
             Console.WriteLine("L'animal crie");
         }
-        public void Crier(string crie)
+        public virtual void Crier(string crie)
         {
             Console.WriteLine("L'animal crie " + crie);
         }

@@ -15,7 +15,7 @@ namespace Demo06HeritageOverrideAbstract
             EstDomestique = domestique;
         }
 
-        public new void Crier() // si on cherche à remplacer une méthode sans virtual, il est préférable d'utiliser le mot clé new
+        public override void Crier() // si on cherche à remplacer une méthode sans virtual, il est préférable d'utiliser le mot clé new
         {
             Console.WriteLine("Le chat miaule");
         }

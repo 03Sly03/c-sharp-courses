@@ -14,7 +14,7 @@ namespace Demo06HeritageOverrideAbstract
         {
             Race = race;
         }
-        public new void Crier()
+        public override void Crier()
         {
             Console.WriteLine("Le chien aboie");
         }
