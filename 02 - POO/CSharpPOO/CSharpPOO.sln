@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo03Polymorphisme1", "Dem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo04Polymorphisme2", "Demo04Polymorphisme2\Demo04Polymorphisme2.csproj", "{0E7E82A6-94FE-47F4-93CF-BC24E79BA32A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo05HeritageMasquage", "Demo05Heritage\Demo05HeritageMasquage.csproj", "{9A095CE9-8D86-45D4-820E-29B188AF22D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo06HeritageOverrideAbstract", "Demo06HeritageOverrideAbstract\Demo06HeritageOverrideAbstract.csproj", "{948BC143-5195-4203-91AE-92F5388073BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +65,14 @@ Global
 		{0E7E82A6-94FE-47F4-93CF-BC24E79BA32A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E7E82A6-94FE-47F4-93CF-BC24E79BA32A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E7E82A6-94FE-47F4-93CF-BC24E79BA32A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A095CE9-8D86-45D4-820E-29B188AF22D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A095CE9-8D86-45D4-820E-29B188AF22D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A095CE9-8D86-45D4-820E-29B188AF22D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A095CE9-8D86-45D4-820E-29B188AF22D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{948BC143-5195-4203-91AE-92F5388073BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{948BC143-5195-4203-91AE-92F5388073BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{948BC143-5195-4203-91AE-92F5388073BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{948BC143-5195-4203-91AE-92F5388073BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +86,8 @@ Global
 		{F3A9EAA5-2FDD-4AF0-B8CA-960A5ECD75C3} = {DC654770-E41A-4860-A2EA-5B870797B010}
 		{DDF1ACEC-21B5-4670-AE37-7323A5ECE4D7} = {718B98C5-BE84-4395-854F-98C3E8EAB5C8}
 		{0E7E82A6-94FE-47F4-93CF-BC24E79BA32A} = {718B98C5-BE84-4395-854F-98C3E8EAB5C8}
+		{9A095CE9-8D86-45D4-820E-29B188AF22D0} = {718B98C5-BE84-4395-854F-98C3E8EAB5C8}
+		{948BC143-5195-4203-91AE-92F5388073BC} = {718B98C5-BE84-4395-854F-98C3E8EAB5C8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9CBA56D2-3452-422F-BF4E-D0872B7F4713}
