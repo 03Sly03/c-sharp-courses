@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice01Chaise", "Exercic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo02Static", "Demo02Static\Demo02Static.csproj", "{6CA334B3-907A-401D-82B4-1CC4C67681CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice02Salarie", "Exercice02Salarie\Exercice02Salarie.csproj", "{87DEC482-AA22-4F5E-9367-BF5A1B9CEA2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice02Salarie", "Exercice02Salarie\Exercice02Salarie.csproj", "{87DEC482-AA22-4F5E-9367-BF5A1B9CEA2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice03WaterTank", "Exercice03WaterTank\Exercice03WaterTank.csproj", "{700B98F3-BF40-4A97-81E9-A334420D8E48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice03WaterTank", "Exercice03WaterTank\Exercice03WaterTank.csproj", "{700B98F3-BF40-4A97-81E9-A334420D8E48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice04Pendu", "Exercice04Pendu\Exercice04Pendu.csproj", "{F3A9EAA5-2FDD-4AF0-B8CA-960A5ECD75C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{700B98F3-BF40-4A97-81E9-A334420D8E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{700B98F3-BF40-4A97-81E9-A334420D8E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{700B98F3-BF40-4A97-81E9-A334420D8E48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3A9EAA5-2FDD-4AF0-B8CA-960A5ECD75C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3A9EAA5-2FDD-4AF0-B8CA-960A5ECD75C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3A9EAA5-2FDD-4AF0-B8CA-960A5ECD75C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3A9EAA5-2FDD-4AF0-B8CA-960A5ECD75C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{6CA334B3-907A-401D-82B4-1CC4C67681CC} = {718B98C5-BE84-4395-854F-98C3E8EAB5C8}
 		{87DEC482-AA22-4F5E-9367-BF5A1B9CEA2E} = {DC654770-E41A-4860-A2EA-5B870797B010}
 		{700B98F3-BF40-4A97-81E9-A334420D8E48} = {DC654770-E41A-4860-A2EA-5B870797B010}
+		{F3A9EAA5-2FDD-4AF0-B8CA-960A5ECD75C3} = {DC654770-E41A-4860-A2EA-5B870797B010}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9CBA56D2-3452-422F-BF4E-D0872B7F4713}
