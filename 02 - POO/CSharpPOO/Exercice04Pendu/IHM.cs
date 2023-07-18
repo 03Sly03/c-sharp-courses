@@ -57,7 +57,6 @@ namespace Exercice04Pendu
             return _pendu.TestWin();
         }
 
-
         public static void AffichagePendu(int noEssai, int nbEssaiMax)
         {
             string[,] penduAscii = {

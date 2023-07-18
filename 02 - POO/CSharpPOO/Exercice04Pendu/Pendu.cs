@@ -68,5 +68,23 @@ namespace Exercice04Pendu
                     _masque += '*';
             }
         }
+
+        //Propriété Masque sans attribut masque => généré à chaque fois qu'on get
+        public string Masque2 
+        { 
+            get
+            {
+                string masque = "";
+                foreach (char lettre in _motAtrouver)
+                {
+                    if (_letresTestees.Contains(lettre))
+                        masque += lettre;
+                    else
+                        masque += '*';
+                }
+                return masque;
+            }
+        } 
+
     }
 }
