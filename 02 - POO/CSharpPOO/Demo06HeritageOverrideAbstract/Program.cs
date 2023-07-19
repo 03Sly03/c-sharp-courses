@@ -71,3 +71,21 @@ foreach (object mon_objet in animals)
     Chat? mon_chat = mon_objet as Chat;
     Console.WriteLine("Contenu de la variable mon_chat (vide si null) : " + mon_chat);
 }
+
+
+// récupérer le type avec .GetType()
+
+int t = 5;
+Console.WriteLine(t.GetType());
+Console.WriteLine(t.GetType().Name);
+Console.WriteLine(t.GetType().FullName);
+Console.WriteLine(t.GetType().Namespace);
+
+
+foreach (object mon_objet in animals)
+{
+    Console.WriteLine(mon_objet.GetType());
+    Console.WriteLine(mon_objet.GetType().Name);
+    Console.WriteLine(mon_objet.GetType().FullName);
+    Console.WriteLine(mon_objet.GetType().Namespace);
+}
