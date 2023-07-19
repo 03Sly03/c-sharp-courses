@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo06HeritageOverrideAbstr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice05SalarieHeritage", "Exercice05SalarieHeritage\Exercice05SalarieHeritage.csproj", "{0B9F6EB7-C2EA-4CFC-A18F-9736E11D881D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo07Interfaces", "Demo07Interfaces\Demo07Interfaces.csproj", "{5961AD27-2D3A-4FE8-B5E2-3D9266B00EF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +81,10 @@ Global
 		{0B9F6EB7-C2EA-4CFC-A18F-9736E11D881D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B9F6EB7-C2EA-4CFC-A18F-9736E11D881D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B9F6EB7-C2EA-4CFC-A18F-9736E11D881D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5961AD27-2D3A-4FE8-B5E2-3D9266B00EF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5961AD27-2D3A-4FE8-B5E2-3D9266B00EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5961AD27-2D3A-4FE8-B5E2-3D9266B00EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5961AD27-2D3A-4FE8-B5E2-3D9266B00EF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,6 +101,7 @@ Global
 		{9A095CE9-8D86-45D4-820E-29B188AF22D0} = {718B98C5-BE84-4395-854F-98C3E8EAB5C8}
 		{948BC143-5195-4203-91AE-92F5388073BC} = {718B98C5-BE84-4395-854F-98C3E8EAB5C8}
 		{0B9F6EB7-C2EA-4CFC-A18F-9736E11D881D} = {DC654770-E41A-4860-A2EA-5B870797B010}
+		{5961AD27-2D3A-4FE8-B5E2-3D9266B00EF2} = {718B98C5-BE84-4395-854F-98C3E8EAB5C8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9CBA56D2-3452-422F-BF4E-D0872B7F4713}
