@@ -17,15 +17,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice02Salarie", "Exerci
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice03WaterTank", "Exercice03WaterTank\Exercice03WaterTank.csproj", "{700B98F3-BF40-4A97-81E9-A334420D8E48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice04Pendu", "Exercice04Pendu\Exercice04Pendu.csproj", "{F3A9EAA5-2FDD-4AF0-B8CA-960A5ECD75C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice04Pendu", "Exercice04Pendu\Exercice04Pendu.csproj", "{F3A9EAA5-2FDD-4AF0-B8CA-960A5ECD75C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo03Polymorphisme1", "Demo03Polymorphisme1\Demo03Polymorphisme1.csproj", "{DDF1ACEC-21B5-4670-AE37-7323A5ECE4D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo03Polymorphisme1", "Demo03Polymorphisme1\Demo03Polymorphisme1.csproj", "{DDF1ACEC-21B5-4670-AE37-7323A5ECE4D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo04Polymorphisme2", "Demo04Polymorphisme2\Demo04Polymorphisme2.csproj", "{0E7E82A6-94FE-47F4-93CF-BC24E79BA32A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo04Polymorphisme2", "Demo04Polymorphisme2\Demo04Polymorphisme2.csproj", "{0E7E82A6-94FE-47F4-93CF-BC24E79BA32A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo05HeritageMasquage", "Demo05Heritage\Demo05HeritageMasquage.csproj", "{9A095CE9-8D86-45D4-820E-29B188AF22D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo05HeritageMasquage", "Demo05Heritage\Demo05HeritageMasquage.csproj", "{9A095CE9-8D86-45D4-820E-29B188AF22D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo06HeritageOverrideAbstract", "Demo06HeritageOverrideAbstract\Demo06HeritageOverrideAbstract.csproj", "{948BC143-5195-4203-91AE-92F5388073BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo06HeritageOverrideAbstract", "Demo06HeritageOverrideAbstract\Demo06HeritageOverrideAbstract.csproj", "{948BC143-5195-4203-91AE-92F5388073BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice05SalarieHeritage", "Exercice05SalarieHeritage\Exercice05SalarieHeritage.csproj", "{0B9F6EB7-C2EA-4CFC-A18F-9736E11D881D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +75,10 @@ Global
 		{948BC143-5195-4203-91AE-92F5388073BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{948BC143-5195-4203-91AE-92F5388073BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{948BC143-5195-4203-91AE-92F5388073BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B9F6EB7-C2EA-4CFC-A18F-9736E11D881D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B9F6EB7-C2EA-4CFC-A18F-9736E11D881D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B9F6EB7-C2EA-4CFC-A18F-9736E11D881D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B9F6EB7-C2EA-4CFC-A18F-9736E11D881D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,6 +94,7 @@ Global
 		{0E7E82A6-94FE-47F4-93CF-BC24E79BA32A} = {718B98C5-BE84-4395-854F-98C3E8EAB5C8}
 		{9A095CE9-8D86-45D4-820E-29B188AF22D0} = {718B98C5-BE84-4395-854F-98C3E8EAB5C8}
 		{948BC143-5195-4203-91AE-92F5388073BC} = {718B98C5-BE84-4395-854F-98C3E8EAB5C8}
+		{0B9F6EB7-C2EA-4CFC-A18F-9736E11D881D} = {DC654770-E41A-4860-A2EA-5B870797B010}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9CBA56D2-3452-422F-BF4E-D0872B7F4713}
