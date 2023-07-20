@@ -8,5 +8,10 @@ namespace Exercice06Figures.Classes.Figures
 {
     internal class Rectangle
     {
+        /*            +longueur
+         *          A           B
+         * -largeur
+         *          D           c
+         */
     }
 }
