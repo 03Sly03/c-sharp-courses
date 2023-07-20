@@ -11,12 +11,22 @@ namespace Exercice06Figures.Classes.Figures
         /*         +cote
          *        A    B
          *  -cote
-         *        D    c
+         *        D    C
          */
 
         public double Cote { get; set; }
 
         public Point B => new Point(A.X + Cote, A.Y);
+        // équivalents :
+        //public Point B2 { get => new Point(A.X + Cote, A.Y); }
+        //public Point B3 { 
+        //    get 
+        //    {
+        //        return new Point(A.X + Cote, A.Y); 
+        //    } 
+        //}
+        public Point C => new Point(A.X + Cote, A.Y - Cote);
+        public Point D => new Point(A.X, A.Y - Cote);
 
         public Carre(Point a, double cote) : base(a)
         {
@@ -26,6 +36,15 @@ namespace Exercice06Figures.Classes.Figures
         public Carre(double x, double y, double cote) : base(x, y)
         {
             Cote = cote;
+        }
+
+        public override string ToString()
+        {
+            return $"Coordonnées du carré ABCD (Coté = {Cote})" +
+                "\nA = " + A +
+                "\nB = " + B +
+                "\nC = " + C +
+                "\nD = " + D; 
         }
     }
 }
