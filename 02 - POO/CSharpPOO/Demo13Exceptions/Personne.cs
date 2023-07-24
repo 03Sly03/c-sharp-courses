@@ -27,16 +27,16 @@ namespace Demo13Exceptions
             }
         }
 
-        //public string Telephone
-        //{
-        //    get => telephone;
-        //    set
-        //    {
-        //        if (!value.StartsWith("0") || value.Length != 10)
-        //            throw new PhoneException();
-        //        telephone = value;
-        //    }
-        //}
+        public string Telephone
+        {
+            get => _telephone;
+            set
+            {
+                if (!value.StartsWith("0") || value.Length != 10)
+                    throw new PhoneException();
+                _telephone = value;
+            }
+        }
 
     }
 }
