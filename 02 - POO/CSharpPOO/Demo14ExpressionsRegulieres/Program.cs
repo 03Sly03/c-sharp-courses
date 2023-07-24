@@ -2,22 +2,22 @@
 using System.Text.RegularExpressions;
 
 
-// FormatPhone
-string userPhone = "";
+//// FormatPhone
+//string userPhone = "";
 
-while (!Tools.IsPhone(userPhone))
-{
-    Console.WriteLine("Veuillez saisir un numéro de téléphone : ");
+//while (!Tools.IsPhone(userPhone))
+//{
+//    Console.WriteLine("Veuillez saisir un numéro de téléphone : ");
 
-    userPhone = Console.ReadLine();
-}
+//    userPhone = Console.ReadLine();
+//}
 
 
-userPhone = Tools.FormatPhone(userPhone);
-Console.WriteLine(userPhone);
+//userPhone = Tools.FormatPhone(userPhone);
+//Console.WriteLine(userPhone);
 
 // SPLIT Regex
-string[] tabString = Regex.Split("test test test e", @"\s");
+string[] tabString = Regex.Split("test test   test e", @"\s+");
 
 foreach (string str in tabString)
 {
@@ -28,7 +28,7 @@ foreach (string str in tabString)
 
 // REPLACE() => Remplace un caractere recherché par un autre
 string maChaine = "Bonjour,          je     m'appelle       Anthony      ";
-Console.WriteLine(Tools.ClearMultipleSpace(maChaine));
+Console.WriteLine(Tools.ClearMultipleSpace(maChaine, " "));
 
 
 

@@ -53,7 +53,7 @@ namespace Demo14ExpressionsRegulieres.Classes
             // 06.23.45.69.87
             // 0723456987
             // 0623-45.69 87
-            string pattern = @"^([0|\+33|33]+)(\.|\-|\s)?([1-9]{1})((\.|\-|\s)?[0-9]{2}){4}$";
+            string pattern = @"^([0|\+33|33]?)(\.|\-|\s)?([1-9]{1})((\.|\-|\s)?[0-9]{2}){4}$";
             return Regex.IsMatch(phone, pattern);
         }
 
@@ -66,19 +66,19 @@ namespace Demo14ExpressionsRegulieres.Classes
 
         public static bool IsAlphabetic(string chaine)
         {
-            string pattern = @"^[A-Z]{1}[a-zA-Z\séèë\-_\s]*$";
+            string pattern = @"^[A-Z]{1}[a-zA-Z éèë\-_\s]*$";
             return Regex.IsMatch(chaine, pattern);
         }
 
-        public static string ClearMultipleSpace(string chaine)
+        public static string ClearMultipleSpace(string chaine, string remplacement)
         {
             string pattern = @"\s+";
-            string CleanedString = Regex.Replace(chaine, pattern, " ");
+            string cleanedString = Regex.Replace(chaine, pattern, remplacement);
 
-            return CleanedString;
+            return cleanedString;
         }
 
-        public static string FormatPhone(string phone)
+        public static string FormatPhone(string phone) // renvoie un téléphone sous la forme +33659786532 => Le Bon Format
         {
             string pattern = @"[\.\-]+";
             string FormatedString = Regex.Replace(phone, pattern, "");
@@ -86,7 +86,7 @@ namespace Demo14ExpressionsRegulieres.Classes
             pattern = @"^(0|33)";
             FormatedString = Regex.Replace(FormatedString, pattern, "+33");
 
-            return ClearMultipleSpace(FormatedString);
+            return ClearMultipleSpace(FormatedString, "");
         }
 
     }
