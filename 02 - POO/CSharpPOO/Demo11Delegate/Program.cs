@@ -33,7 +33,13 @@ Func<int, int, int> mul4 = delegate (int a, int b) // une ou plusieurs instructi
 {
     Console.WriteLine($"Je multiplie {a} et {b}.");
     return a * b; 
-}; 
+};
+// équivalent sans le delegate et avec un "=>"
+Func<int, int, int> mul5 = (int a, int b) =>
+{
+    Console.WriteLine($"Je multiplie {a} et {b}.");
+    return a * b;
+};
 
 Console.WriteLine(mul);
 Console.WriteLine(mul(2, 5));
@@ -46,7 +52,7 @@ Console.WriteLine("-----------------------------------");
 
 Calculatrice cal = new Calculatrice();
 
-var add = cal.Addition; // Func
+Func<int, int, int> add = cal.Addition; // Func
 Console.WriteLine(add(1,2));
 
 cal.CalculerEtAfficher(10, 20, Multiplication);
@@ -59,3 +65,16 @@ cal.CalculerEtAfficher(30, 10, delegate (int a, int b) { return a / b; });
 
 
 Console.WriteLine();
+
+
+void Afficher(string texte)
+{
+    Console.WriteLine(texte);
+}
+void AfficherBonjour()
+{
+    Console.WriteLine("Bonjour");
+}
+
+Action<string> afficher = Afficher;
+Action afficherB = AfficherBonjour;
